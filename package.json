@@ -11,9 +11,8 @@
     "url": "git+https://github.com/TitaniumBunker/hit-parade.git"
   },
   "keywords": [
-    "Chart",
-    "Top",
-    "75"
+    "UK Singles Chart",
+    "API"
   ],
   "author": "Mike Hingley <computa_mike@hotmail.com>",
   "license": "MIT",
