@@ -4,7 +4,7 @@
   "description": "A basic API layer around the Official Charts Website.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nyc --reporter=html --reporter=text mocha --recursive --reporter dot"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/TitaniumBunker/hit-parade/issues"
   },
-  "homepage": "https://github.com/TitaniumBunker/hit-parade#readme"
+  "homepage": "https://github.com/TitaniumBunker/hit-parade#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.0.0"
+  }
 }
